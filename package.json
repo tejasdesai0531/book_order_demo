@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/tejasdesai0531/book_order_demo#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
