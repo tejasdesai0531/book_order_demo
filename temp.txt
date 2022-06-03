@@ -1,0 +1,39 @@
+Restaurant
+
+what is the api type ? (post, get, etc)
+What is api name ?
+What is the body ?
+What is the response ?
+
+1. Add restaurant in table
+2. Update restaurnat
+3. Get details of single restaurant
+4. Delete restaurant
+5. Get list of all restaurant 
+
+
+1. Add restaurant in table
+
+    API Type : post
+    API name : /restaurant
+    body : {
+        restaurant_name : "Kailash ka dhaba",
+        address: "Powai"
+    }
+    response : {
+        error: false/true,
+        msg: "Restaurant added successfully" or "Failed to add restaurant"
+    }
+
+2. Update restaurant in table
+
+    API Type : patch
+    API name : /restaurant/:id
+    body : {
+        restaurant_name : "Kailash ka dhaba",
+        address: "Powai"
+    }
+    response : {
+        error: false/true,
+        msg: "Restaurant details updated successfully" or "Failed to update restaurant"
+    }
